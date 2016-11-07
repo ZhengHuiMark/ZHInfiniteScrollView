@@ -12,15 +12,15 @@
 
 2. 初始化您的数据源数组, 在这里我们给数据源数组添加 UIColor 实例.
 
-self.dataSource = [[NSMutableArray alloc] initWithObjects:@{@"color":[UIColor redColor],      @"title":@"红色"},
-@{@"color":[UIColor orangeColor],   @"title":@"橙色"},
-@{@"color":[UIColor yellowColor],   @"title":@"黄色"},
-@{@"color":[UIColor greenColor],    @"title":@"绿色"},
-@{@"color":[UIColor cyanColor],     @"title":@"青色"},
-@{@"color":[UIColor blueColor],     @"title":@"蓝色"},
-@{@"color":[UIColor purpleColor],   @"title":@"紫色"},
-@{@"color":[UIColor brownColor],    @"title":@"棕色"},
-nil];
+self.dataSource = [[NSMutableArray alloc] initWithObjects:@{@"color":[UIColorredColor],      @"title":@"红色"},
+    @{@"color":[UIColor orangeColor],   @"title":@"橙色"},
+    @{@"color":[UIColor yellowColor],   @"title":@"黄色"},
+    @{@"color":[UIColor greenColor],    @"title":@"绿色"},
+    @{@"color":[UIColor cyanColor],     @"title":@"青色"},
+    @{@"color":[UIColor blueColor],     @"title":@"蓝色"},
+    @{@"color":[UIColor purpleColor],   @"title":@"紫色"},
+    @{@"color":[UIColor brownColor],    @"title":@"棕色"},
+    nil];
 
 3. 初始化 ZHInfiniteScrollView, 您只需要调用这一个工厂方法, 便可以轻松实例化一个 ZHInfiniteScrollView 实例.
 
