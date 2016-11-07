@@ -13,6 +13,11 @@
 		DDF0F7F11DD0BED80012EC83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF0F7EF1DD0BED80012EC83 /* Main.storyboard */; };
 		DDF0F7F31DD0BED80012EC83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF0F7F21DD0BED80012EC83 /* Assets.xcassets */; };
 		DDF0F7F61DD0BED80012EC83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF0F7F41DD0BED80012EC83 /* LaunchScreen.storyboard */; };
+		DDF0F8031DD0C7DB0012EC83 /* ZHInfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF0F8021DD0C7DB0012EC83 /* ZHInfiniteScrollView.m */; };
+		DDF0F8061DD0C8640012EC83 /* ZHInfiniteScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF0F8051DD0C8640012EC83 /* ZHInfiniteScrollViewCell.m */; };
+		DDF0F8091DD0CA7B0012EC83 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF0F8081DD0CA7B0012EC83 /* TableViewController.m */; };
+		DDF0F80C1DD0CA9C0012EC83 /* CostomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF0F80B1DD0CA9C0012EC83 /* CostomTableViewCell.m */; };
+		DDF0F80F1DD0CACD0012EC83 /* CustomInfiniteScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF0F80E1DD0CACD0012EC83 /* CustomInfiniteScrollViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		DDF0F7F21DD0BED80012EC83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDF0F7F51DD0BED80012EC83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDF0F7F71DD0BED80012EC83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF0F8011DD0C7DB0012EC83 /* ZHInfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHInfiniteScrollView.h; sourceTree = "<group>"; };
+		DDF0F8021DD0C7DB0012EC83 /* ZHInfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHInfiniteScrollView.m; sourceTree = "<group>"; };
+		DDF0F8041DD0C8640012EC83 /* ZHInfiniteScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHInfiniteScrollViewCell.h; sourceTree = "<group>"; };
+		DDF0F8051DD0C8640012EC83 /* ZHInfiniteScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHInfiniteScrollViewCell.m; sourceTree = "<group>"; };
+		DDF0F8071DD0CA7B0012EC83 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		DDF0F8081DD0CA7B0012EC83 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		DDF0F80A1DD0CA9C0012EC83 /* CostomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CostomTableViewCell.h; sourceTree = "<group>"; };
+		DDF0F80B1DD0CA9C0012EC83 /* CostomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CostomTableViewCell.m; sourceTree = "<group>"; };
+		DDF0F80D1DD0CACD0012EC83 /* CustomInfiniteScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomInfiniteScrollViewCell.h; sourceTree = "<group>"; };
+		DDF0F80E1DD0CACD0012EC83 /* CustomInfiniteScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomInfiniteScrollViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +73,17 @@
 		DDF0F7E51DD0BED80012EC83 /* ZHInfiniteScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				DDF0F8001DD0C7DB0012EC83 /* ZHInfiniteScrollView */,
 				DDF0F7E91DD0BED80012EC83 /* AppDelegate.h */,
 				DDF0F7EA1DD0BED80012EC83 /* AppDelegate.m */,
 				DDF0F7EC1DD0BED80012EC83 /* ViewController.h */,
 				DDF0F7ED1DD0BED80012EC83 /* ViewController.m */,
+				DDF0F8071DD0CA7B0012EC83 /* TableViewController.h */,
+				DDF0F8081DD0CA7B0012EC83 /* TableViewController.m */,
+				DDF0F80A1DD0CA9C0012EC83 /* CostomTableViewCell.h */,
+				DDF0F80B1DD0CA9C0012EC83 /* CostomTableViewCell.m */,
+				DDF0F80D1DD0CACD0012EC83 /* CustomInfiniteScrollViewCell.h */,
+				DDF0F80E1DD0CACD0012EC83 /* CustomInfiniteScrollViewCell.m */,
 				DDF0F7EF1DD0BED80012EC83 /* Main.storyboard */,
 				DDF0F7F21DD0BED80012EC83 /* Assets.xcassets */,
 				DDF0F7F41DD0BED80012EC83 /* LaunchScreen.storyboard */,
@@ -77,6 +99,17 @@
 				DDF0F7E71DD0BED80012EC83 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDF0F8001DD0C7DB0012EC83 /* ZHInfiniteScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				DDF0F8041DD0C8640012EC83 /* ZHInfiniteScrollViewCell.h */,
+				DDF0F8051DD0C8640012EC83 /* ZHInfiniteScrollViewCell.m */,
+				DDF0F8011DD0C7DB0012EC83 /* ZHInfiniteScrollView.h */,
+				DDF0F8021DD0C7DB0012EC83 /* ZHInfiniteScrollView.m */,
+			);
+			path = ZHInfiniteScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +183,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDF0F8061DD0C8640012EC83 /* ZHInfiniteScrollViewCell.m in Sources */,
+				DDF0F8091DD0CA7B0012EC83 /* TableViewController.m in Sources */,
+				DDF0F80C1DD0CA9C0012EC83 /* CostomTableViewCell.m in Sources */,
 				DDF0F7EE1DD0BED80012EC83 /* ViewController.m in Sources */,
+				DDF0F80F1DD0CACD0012EC83 /* CustomInfiniteScrollViewCell.m in Sources */,
 				DDF0F7EB1DD0BED80012EC83 /* AppDelegate.m in Sources */,
 				DDF0F7E81DD0BED80012EC83 /* main.m in Sources */,
+				DDF0F8031DD0C7DB0012EC83 /* ZHInfiniteScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZHInfiniteScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZHMARK.ZHInfiniteScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZHInfiniteScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZHMARK.ZHInfiniteScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
